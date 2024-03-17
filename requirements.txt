@@ -1,0 +1,10 @@
+opencv-python
+mediapipe
+flask-opencv-streamer
+matplotlib
+Pillow
+imutils
+numpy
+imagezmq
+cvzone
+pyzbar
