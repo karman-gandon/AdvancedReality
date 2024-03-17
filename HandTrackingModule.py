@@ -1,3 +1,7 @@
+import os
+
+os.system("pip install -r requirements.txt")
+
 import cv2
 import mediapipe as mp
 from flask_opencv_streamer.streamer import Streamer
