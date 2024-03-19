@@ -1,0 +1,8 @@
+<Application>
+    <Name>Тест. Видимое имя</Name>
+    <Link>com.example.link</Link>
+    <Icon>ux/icon</Icon>
+    <License type="works until">000001012025</License> <!--00:00 01.01.2025 Unix format-->
+    <Assembly>debug</Assembly>
+    <IDE>AR Workstation 2</IDE>
+</Application>

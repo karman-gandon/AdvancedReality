@@ -1,0 +1,4 @@
+<Config>
+    <Script>script.py</Script>
+    <Layout>layout.xml</Layout>
+</Config>

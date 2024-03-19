@@ -1,0 +1,7 @@
+<IconLayout>
+    <Icon size="16x16">16.png</Icon>
+    <Icon size="64x64">64.png</Icon>
+    <Icon size="128x128">128.png</Icon>
+    <Icon size="256x256">256.png</Icon>
+    <Description>Главная иконка приложения</Description>
+</IconLayout>

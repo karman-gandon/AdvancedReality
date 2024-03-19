@@ -1,0 +1,21 @@
+<Page ResizeWindow="400 200" Closable="False">
+
+    <Group
+        Parent="Center"
+        Weight="ResizeAutoContent"
+        Height="ResizeAutoContent">
+        <Text
+            ID="Text1"
+            TextSize="25"
+            TextFamily="Arial"
+            Weight="ResizeAutoContent"
+            Height="ResizeAutoContent">Hello, world!</Text>
+        <Button
+            ID="Text1"
+            Leftward="Text1"
+            Weight="ResizeAutoContent"
+            Height="ResizeAutoContent"
+            CodeLink="ChangeText">Click Me!</Button>
+    </Group>
+
+</Page>

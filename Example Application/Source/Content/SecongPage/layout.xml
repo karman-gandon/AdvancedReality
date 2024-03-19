@@ -1,0 +1,15 @@
+<Page ResizeWindow="400 200" Closable="True">
+
+    <Group
+        Parent="Center"
+        Weight="ResizeAutoContent"
+        Height="ResizeAutoContent">
+        <Text
+            ID="Text1"
+            TextSize="25"
+            TextFamily="Arial"
+            Weight="ResizeAutoContent"
+            Height="ResizeAutoContent">Это вторая страница</Text>
+    </Group>
+
+</Page>
