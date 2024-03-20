@@ -11,8 +11,8 @@
             Weight="ResizeAutoContent"
             Height="ResizeAutoContent">Hello, world!</Text>
         <Button
-            ID="Text1"
-            Leftward="Button1"
+            ID="Button1"
+            Leftward="Text1"
             Weight="ResizeAutoContent"
             Height="ResizeAutoContent"
             CodeLink="ChangeText">Click Me!</Button>
