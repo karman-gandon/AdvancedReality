@@ -82,15 +82,22 @@ def Begin():
 
 Рассмотрим код. 
 
-```import ApplicationRuntime as ar```.
+
 Импортируем обработчик комманд для приложения под платформу AdvancedReality.
+```
+import ApplicationRuntime as ar
+```
 
-```Layout = ar.link("layout.xml")```
- Подключаем файл разметки для работы с ним.
 
- ```
+Подключаем файл разметки для работы с ним.
+```
+Layout = ar.link("layout.xml")
+```
+
+
+Функция которая выполняется при открытии страницы. В случае с MainContent - при запуске приложения.
+```
 def Begin():
     #Your code at start MainContent page here
     pass
  ```
-Функция которая выполняется при открытии страницы. В случае с MainContent - при запуске приложения.
