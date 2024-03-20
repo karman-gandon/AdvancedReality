@@ -67,4 +67,30 @@ Horizontal - на горизонтальной линии, Vertical - на ве�
 
 
 
-***5.** 
+***5.** Backend**
+
+Для *Backend* вы используете Python. 
+```
+import ApplicationRuntime as ar
+
+Layout = ar.link("layout.xml")
+
+def Begin():
+    #Your code at start MainContent page here
+    pass
+```
+
+Рассмотрим код. 
+
+```import ApplicationRuntime as ar```.
+Импортируем обработчик комманд для приложения под платформу AdvancedReality.
+
+```Layout = ar.link("layout.xml")```
+ Подключаем файл разметки для работы с ним.
+
+ ```
+def Begin():
+    #Your code at start MainContent page here
+    pass
+ ```
+Функция которая выполняется при открытии страницы. В случае с MainContent - при запуске приложения.
