@@ -15,7 +15,7 @@
             Leftward="Text1"
             Weight="ResizeAutoContent"
             Height="ResizeAutoContent"
-            CodeLink="ChangeText">Click Me!</Button>
+            AtClick="ChangeText">Click Me!</Button>
     </Group>
 
 </Page>
