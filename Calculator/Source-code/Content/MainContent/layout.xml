@@ -1,0 +1,38 @@
+<Page ResizeWindow="ResizeAutoContent ResizeAutoContent" Closable="True">
+
+    <Group
+        ID="Numpad"
+        Parent="Bottom"
+        Weight="ResizeAutoContent"
+        Height="ResizeAutoContent">
+        
+        <Button ID="1" Leftmargin="8" Topmargin="8" Weight="23" Height="23" AtClick="add1">1</Button>
+        <Button ID="2" Leftmargin="39" Topmargin="8" Weight="23" Height="23" AtClick="add2">2</Button>
+        <Button ID="3" Leftmargin="70" Topmargin="8" Weight="23" Height="23" AtClick="add3">3</Button>
+        <Button ID="Plus" Leftmargin="101" Topmargin="8" Weight="23" Height="23" AtClick="addplus">+</Button>
+
+        <Button ID="4" Leftmargin="8" Topmargin="39" Weight="23" Height="23" AtClick="add4">4</Button>
+        <Button ID="5" Leftmargin="39" Topmargin="39" Weight="23" Height="23" AtClick="add5">5</Button>
+        <Button ID="6" Leftmargin="70" Topmargin="39" Weight="23" Height="23" AtClick="add6">6</Button>
+        <Button ID="Minus" Leftmargin="101" Topmargin="39" Weight="23" Height="23" AtClick="addminus">-</Button>
+
+        <Button ID="7" Leftmargin="8" Topmargin="70" Weight="23" Height="23" AtClick="add7">7</Button>
+        <Button ID="8" Leftmargin="39" Topmargin="70" Weight="23" Height="23" AtClick="add8">8</Button>
+        <Button ID="9" Leftmargin="70" Topmargin="70" Weight="23" Height="23" AtClick="add9">9</Button>
+        <Button ID="Divide" Leftmargin="101" Topmargin="70" Weight="23" Height="23" AtClick="adddiv">/</Button>
+
+        <Button ID="Clear" Leftmargin="8" Topmargin="101" Weight="23" Height="23" AtClick="clr">C</Button>
+        <Button ID="0" Leftmargin="39" Topmargin="101" Weight="23" Height="23" AtClick="add0">0</Button>
+        <Button ID="Calculate" Leftmargin="70" Topmargin="101" Weight="23" Height="23" AtClick="calc">=</Button>
+        <Button ID="Multiply" Leftmargin="101" Topmargin="101" Weight="23" Height="23" AtClick="addmult">*</Button>
+
+
+    </Group>
+
+    <Text
+        ID="Calculated"
+        Parent="Top"
+        Weight="500"
+        Height="100">0</Text>
+
+</Page>

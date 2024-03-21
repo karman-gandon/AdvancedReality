@@ -1,0 +1,8 @@
+<Application>
+    <Name>Калькулятор</Name>
+    <Link>com.kg.calculator</Link>
+    <Icon>ux/icon</Icon>
+    <License type="works until">000001012030</License> <!--00:00 01.01.2025 Unix format-->
+    <Assembly>release</Assembly>
+    <IDE>Visual Studio Code</IDE>
+</Application>
